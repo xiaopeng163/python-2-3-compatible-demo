@@ -1,0 +1,8 @@
+flake8
+flake8-import-order
+discover
+nose
+coverage
+pycodestyle
+pylint
+mock
