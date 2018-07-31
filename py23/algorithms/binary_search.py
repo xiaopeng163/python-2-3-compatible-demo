@@ -2,6 +2,7 @@
 binary search
 """
 
+from __future__ import division
 
 def binary_search(l, n, t):
     """
@@ -12,7 +13,7 @@ def binary_search(l, n, t):
     i = 0
     r = n - 1
     while i <= r:
-        mid = (r + i) / 2
+        mid = (r + i) // 2
         if l[mid] == t:
             return mid
         elif l[mid] > t:
